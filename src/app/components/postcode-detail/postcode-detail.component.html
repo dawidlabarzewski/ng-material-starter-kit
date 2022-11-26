@@ -1,0 +1,8 @@
+<mat-card *ngIf="params$ | async as item">
+  <mat-card-title>
+    {{ item.post_code }}
+  </mat-card-title>
+  <mat-card-content>
+    <p>{{ item.country }}</p>
+  </mat-card-content>
+</mat-card>

@@ -97,5 +97,10 @@
       "container": "<ng-container *ngIf=\"$detailVariable$ | async as $itemVariable$\">$content$</ng-container>",
       "content": "{{ $itemVariable$ }}"
     }
+  },
+  "postcode-details": {
+    "content": {
+      "container": "<mat-card *ngIf=\"$detailVariable$ | async as $itemVariable$\"\n<mat-card-title>$itemVariable$</mat-card-title>\n<mat-card-content>$itemVariable$<mat-card-content></mat-card>"
+    }
   }
 }
